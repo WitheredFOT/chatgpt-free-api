@@ -3,7 +3,7 @@
 [![CI](https://github.com/xsigoking/chatgpt-free-api/actions/workflows/ci.yaml/badge.svg)](https://github.com/xsigoking/chatgpt-free-api/actions/workflows/ci.yaml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/xsigoking/chatgpt-free-api)](https://hub.docker.com/r/xsigoking/chatgpt-free-api)
 
-Provide free GPT-3.5 API service by reverse engineering the login-free ChatGPT website.
+Provide free GPT-6-Luna API service by reverse engineering the login-free ChatGPT website.
 
 **Note: This service requires the IP to be able to use the login-free [Chatgpt](https://chat.openai.com/) normally.**
 
@@ -36,7 +36,7 @@ curl http://127.0.0.1:3040/v1/chat/completions \
   -i -X POST \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-6-luna",
     "messages": [
       {
         "role": "user",
